@@ -1,3 +1,7 @@
+# Environments
+
+Environments içindeki dosyalarla projeyi düzenleyebilirsiniz. Admin emaili, api keyi ve benim gibi firebase kullanırsanız veritabanı urlinizi uygulamaya eklemeyi unutmayın.
+
 # NgApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
