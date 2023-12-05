@@ -1,0 +1,17 @@
+<div class="list-group">
+    <a (click)="selectCategory()" 
+    href="#" 
+    class="list-group-item list-group-item-action"
+    [class.active]="displayAll" routerLink="/products">
+        Tüm Kategoriler
+    </a>
+    
+    <a *ngFor="let category of categories" 
+    (click)="selectCategory(category)" 
+    href="#" 
+    class="list-group-item list-group-item-action"
+    [class.active]="category == selectedCategory"
+    routerLink="/products/category/{{category.id}}">
+        {{ category.name }}
+    </a>
+</div>
